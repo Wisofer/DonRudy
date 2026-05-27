@@ -70,11 +70,10 @@ export const metadata: Metadata = {
   // ── Favicons e Íconos ────────────────────────────────────────────────────
   icons: {
     icon: [
-      { url: '/icon-light-32x32.png', media: '(prefers-color-scheme: light)' },
-      { url: '/icon-dark-32x32.png', media: '(prefers-color-scheme: dark)' },
-      { url: '/icon.svg', type: 'image/svg+xml' },
+      { url: '/donrudy-removebg-preview.png', type: 'image/png', sizes: 'any' },
     ],
-    apple: '/apple-icon.png',
+    apple: '/donrudy-removebg-preview.png',
+    shortcut: '/donrudy-removebg-preview.png',
   },
 
   // ── Verificación de Search Console ──────────────────────────────────────
