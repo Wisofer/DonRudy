@@ -13,3 +13,9 @@ __v0_jsx-dev-runtime.ts
 node_modules
 .next/
 .DS_Store
+
+# TypeScript build cache — DO NOT commit (breaks Nixpacks Docker cache mounts)
+tsconfig.tsbuildinfo
+
+# Lock files — use only one package manager
+pnpm-lock.yaml
