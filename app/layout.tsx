@@ -134,6 +134,7 @@ const schemaOrg = {
   ],
 }
 
+
 export default function RootLayout({
   children,
 }: Readonly<{
